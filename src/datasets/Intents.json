@@ -1,0 +1,147 @@
+{
+  "intents": [
+    {
+      "tag": "leave_bot",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "adios",
+        "so long"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "st_greeting",
+      "patterns": [
+        "hi",
+        "hey",
+        "hello",
+        "hello, i need help",
+        "how are you",
+        "greetings",
+        "is anyone there?",
+        "good day"
+      ],
+      "responses": [
+        "Hello! What can I do for you?",
+        "Hello, how can I help?",
+        "Hi there, how can I help?",
+        "Hi! Ask me anything!",
+        "Greetings, how may I help you?",
+        "Hey there! How can I be of service?"
+      ]
+    },
+    {
+      "tag": "st_thank_reply",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "awesome",
+        "cool",
+        "that is helpful"
+      ],
+      "responses": [
+        "Any time!",
+        "You're welcome!",
+        "That's alright!",
+        "My pleasure!",
+        "No problem at all!",
+        "I am happy to help!",
+        "I am glad to be of service!"
+      ]
+    },
+    {
+      "tag": "st_time",
+      "patterns": [
+        "what time",
+        "what is the time",
+        "got the time"
+      ],
+      "responses": [
+        "The time is now ",
+        "Currently the time is ",
+        "The current time is ",
+        "Now the time is "
+      ]
+    },
+    {
+      "tag": "st_weather",
+      "patterns": [
+        "what is the weather",
+        "what is the weather like today"
+      ],
+      "responses": [
+        "The weather today is "
+      ]
+    },
+    {
+      "tag": "name_change_user",
+      "patterns": [
+        "my name is",
+        "call me",
+        "new name is",
+        "change my name to"
+      ],
+      "responses": [
+        "Hello! ",
+        "Hi! ",
+        "Hey! ",
+        "Howdy! "
+      ]
+    },
+    {
+      "tag": "name_ask_user",
+      "patterns": [
+        "what is my name",
+        "do you know my name"
+      ],
+      "responses": [
+        "Your name is ",
+        "You are called ",
+        "You are "
+      ]
+    },
+    {
+      "tag": "name_ask_bot",
+      "patterns": [
+        "what is your name",
+        "your name"
+      ],
+      "responses": [
+        "My name is ",
+        "I am called ",
+        "I am "
+      ]
+    },
+	{
+      "tag": "transaction",
+      "patterns": [
+        "i would like to book a hotel",
+		"book a hotel",
+        "could i book a hotel room"
+      ],
+      "responses": [
+        "Sure!",
+        "Okay!"
+      ]
+    },
+	{
+      "tag": "game",
+      "patterns": [
+        "i would like to play a game",
+		"play a game with me",
+		"can we play a game",
+        "lets play a game"
+      ],
+      "responses": [
+        "Sure!",
+        "Okay!"
+      ]
+    }
+  ]
+}
